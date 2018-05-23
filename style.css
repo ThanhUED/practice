@@ -1,0 +1,153 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'roboto';
+	font-style: 'normal';
+}
+@font-face{
+	font-family: roboto;
+	src:url(font/Roboto-Regular.ttf);
+}
+.wrapper{
+	width: 100%;
+
+}
+.header{
+	background: url(imag/bgheader.htm) no-repeat;
+	background-size: cover;
+	height: 770px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+@media screen and(max-width: 1440px) { 
+
+	.container{
+		width: 100%;
+		padding: 0 50px;
+
+	}
+}
+
+.head-container{
+	position: absolute;
+	width: 100%;
+	line-height: 100px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	
+}
+.logo{
+	font-size: 36px;
+	margin-top: 48px;
+	cursor: pointer;
+	color: #EBCB80;
+    position: absolute;
+    left: 10;
+    top: 10;
+}
+.nav{
+	display: inline-block;
+}
+ul{
+	display: flex;
+
+}
+li{
+	margin: 0 25px;
+	list-style-type: none;
+}
+.social li{
+	margin: 0 25px;
+}
+li:first-child{
+	margin-left: 0;
+}
+li:last-child{
+	margin-right: : 0;
+}
+.nav{
+	
+	color: #ffffff;
+	margin-top: 67px;
+    margin-left: 30%;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 18px;
+}
+.social{
+	top: 60px;
+	position: absolute;
+	right: 0;
+}
+.title{
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 620px;
+	height: 96px;
+	text-align: center;
+}
+.title h1{
+	font-size: 44px;
+	font-weight: normal;
+	color: #ffffff;
+}
+.video-frame{
+	margin:0 auto;
+	display: block;
+	margin-left: 28%;
+	margin-top: 80px;
+}
+/*****/
+
+.feature{
+	overflow: hidden;
+}
+.feature<.container{
+	padding: 80px 0 60px 0;
+}
+
+.title-contain h2{
+	font-size: 44px;
+	
+}
+.title-contain{
+	text-align: center;
+	color: #4B4B4B;
+	margin-top: 80px;
+
+}
+.title-contain p{
+	font-size: 18px;
+	margin-top: 32px;
+}
+.advantage-content{
+	margin-top: 50px;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 40% 60%;
+}
+.item{
+	margin-top: 90px;
+	width: 100%;
+	display: grid;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	grid-template-columns: auto auto;
+
+}
+.item-content{
+	padding: 0 30px;
+
+}
+.item-content h3{
+	text-transform: uppercase;
+}
+
